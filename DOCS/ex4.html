@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Média</title>
+    <script src="trabalho.js"> </script>
+</head>
+<body>
+    <div class="row p-5"> </div>
+    
+    <div class="container mx-5 border" style="width: 50rem;">
+   
+    <div class="text-center ">
+        <h1>Cálculo de média</h1>
+   
+    <p>Digite as notas do aluno:</p>
+    
+    <div class="col-4 mx-5 p-2 "> 
+         <input type="number" class="form-control" id="num1" placeholder="1ª Nota" aria-label="1ª Nota">
+        </div>
+    <div class="col-4 mx-5 p-2">
+          <input type="number" class="form-control" id="num2"placeholder="2ª Nota" aria-label="2ª Nota">
+        </div>
+    <div class="col-4 mx-5 p-2">   
+          <input type="number" class="form-control" id="num3" placeholder="3ª Nota" aria-label="3ª Nota">
+        </div>
+    <div class="col-4 mx-5 p-2">
+          <input type="number" class="form-control" id="num4" placeholder="4ª Nota" aria-label="4ª Nota">
+    </div>
+    
+      <button class="btn btn-primary m-2"  onclick="calcMedia()">Cálcular média</button>
+    
+    
+    <div id="estilo">
+    <p id="result"></p> 
+    <p id= "media"></p>    
+    </div>
+</div>
+</div>
+</body>
+</html>
