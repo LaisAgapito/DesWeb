@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <script src="js/tabuada.js"> </script>
+</head>
+<body>
+    <H1>Tabuada</H1>
+    <label for="num">Digite o número que deseja ver a tabuada:</label>
+    <p></p>
+    <input type="text" id="num" >
+    <button onclick="tabuada()">Enviar</button>
+    <div id="result"> </div>
+
+    <p>
+        Este botão recebeu
+        <span id="retorno">0</span>
+        cliques
+    </p>
+    <button onclick="contador()">Contador</button>
+    
+    <h2>Clique no botão para sortear:</h2>
+    <p id="sorteio"> </p>
+    <button onclick="sorteador()">Sotear</button>
+
+    <h2>Escolha o intervalo que sera sorteado:</h2>
+    Minimo:
+    <input type="text" id="num1"><br>
+
+    Maximo:
+    <input type="text" id="num2">
+    
+    <p id="sorteio2"> </p>
+    <button onclick="sorteador2()">Sotear 2</button>
+
+</body>
+</html>
+
